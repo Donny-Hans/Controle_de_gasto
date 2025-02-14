@@ -1,0 +1,109 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+.poppins-thin {
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.app {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.pessoa-form {
+  margin-bottom: 20px;
+}
+
+.pessoa-form div {
+  margin-bottom: 10px;
+}
+
+.pessoa-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.pessoa-form input, select {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+
+
+button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+
+/* .pessoa-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.pessoa-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.pessoa-list button {
+  background-color: #dc3545;
+}
+
+.pessoa-list button:hover {
+  background-color: #a71d2a;
+}
+
+.transacao-form {
+  margin-bottom: 20px;
+} */
+
+.total-summary {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.total-summary ul {
+  list-style: none;
+  padding: 0;
+}
+
+.total-summary li {
+  margin-bottom: 10px;
+}
+
+.total-summary h3 {
+  margin-top: 20px;
+}
