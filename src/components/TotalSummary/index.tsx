@@ -40,7 +40,7 @@ const TotalSummary: React.FC<Props> = ({ pessoas, transacoes }) => {
 
   return (
     <div className="total-summary">
-      <h2>Totais por Pessoa</h2>
+      <h2 className='Titulo__totais'>Totais por Pessoa</h2>
       <ul>
         {pessoas.map((pessoa) => {
           const { receitas, despesas } = totais[pessoa.id];

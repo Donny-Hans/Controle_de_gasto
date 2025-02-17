@@ -5,6 +5,11 @@
   text-align: center;
 }
 
+body{
+  background-color: linear-gradient(180deg, #363467 0% rgba(30,29,79,0.8)100%);
+}
+
+
 .logo {
   height: 6em;
   padding: 1.5em;
